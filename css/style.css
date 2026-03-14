@@ -162,7 +162,7 @@ p {
 }
 .whatsapp-button:hover {
     background-color: rgb(110,190,0);
-    transform: scale (1.05);
+    transform: scale(1.05);
 }
 
 
@@ -180,14 +180,6 @@ p {
 
 /*------------------------------------------------------*/
 
-@media (max-width: 768px){
-    .container-2, .container-3{
-        flex-direction: column;
-    }
-    body {
-    background-color: rgb(255, 200, 0);
-    font-family: 'Poppins', sans-serif;
-}
 p {
     line-height: 1.6;
 }
@@ -367,11 +359,24 @@ p {
 /*------------------------------------------------------*/
 
 @media (max-width: 768px){
-    .container-2, .container-3{
+    .container-2, .container-3 {
         flex-direction: column;
+        text-align: center;
     }
-}
-.container-2, .container-3{
-    flex-wrap: wrap;
-}
+    .text-content,
+    .text-content-2 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .lists {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .title-image{
+        width: 100%;
+        height: auto;
+    }
+    .second-image {
+        max-width: 100%;
+    }
 }
