@@ -379,4 +379,11 @@ p {
     .second-image {
         max-width: 100%;
     }
+    .main-title {
+        font-size: 20px;
+    }
+    .container {
+        margin: 10px;
+        padding: 20px;
+    }
 }
